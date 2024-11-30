@@ -23,7 +23,7 @@ jobs:
       - name: Install, build, and upload your site output
         env:
           NODE_OPTIONS: "--max_old_space_size=4096"
-        uses: withastro/action@v2
+        uses: withastro/action@v3
 
   deploy:
     needs: build
